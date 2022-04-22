@@ -29,7 +29,7 @@ discharge.
 
 | **Variable** 	| **Description**                                                                                                                                                     | **Typical value(s)**        	|
 |--------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-----------------------------	|
-| `csv_in`    	| filename for csv of discharge values to find distribution                                                                                                           |                             	|
+| `csv_in`    	| filename for csv of discharge values to find distribution                                                                                                           | example file for running the code: 'MN_Jordan_daily.csv'                          	|
 | `cfs`       	| if 1 units are in cfs otherwise they are in m3s                                                                                                                     | 1        	|
 | `annual`   	  | if 1 units find the peak annual discharge for distribution	                                                                                                        | 0                     	|
 | `log10_q`   	| if 1 discharge will be converted to loq10_q otherwise they are not going to be transformed. This is epsecially useful if log pearson3 distribution is desired.   	  | 0	|
