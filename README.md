@@ -40,25 +40,3 @@ discharge.
 | `n`           | number of discharges to create for timeseries                                                                                                                       |1000|
 ### Outputs
 This program outputs a time series of discharge for each step, `q(n)`.
-        :param csv_in: filename for csv of discharge values to find distribution
-        :type param: str
-        :param cfs: if 1 units are in cfs otherwise they are in m3s
-        :type param: bool
-        :param annual: if 1 units find the peak annual discharge for distribution
-        :type param: bool
-        :param log10_q: if 1 discharge will be converted to loq10_q otherwise
-        they are not going to be transformed. This is epsecially useful if 
-        log pearson3 distribution is desired. 
-        :type param: bool
-        :param dist_name_list: a list of distribution to test goodness of fit
-        :type param: str array
-        :param p_max: p_value below which fit is hypothesized to be good
-        :type param: float
-        
-        :param params: shape parameters, location offset and scaling for distributions.
-        This includes location which the distribution is shifted second to last values
-        and scale which is the value with which the distribution is scaled. 
-        :type param: str
-        :param dist_name: the name for which the parameters were inputed 
-        :type param: str
-        '''
